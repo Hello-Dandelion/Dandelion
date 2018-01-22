@@ -1,0 +1,231 @@
+#header{
+	height: 60px;
+}
+.content_leave:focus{
+	outline: none;
+	box-shadow: none;
+}
+.main{
+	margin: 0 auto;
+	width: 80%;
+}
+.main .content_leave{
+	padding: 5px;
+	width: 100%;
+	height: 130px;
+	border: 1px solid #ccc;
+	
+}
+.main .leave_hidden{
+	/*display: none;*/
+	height: 35px;
+	border: 1px solid #ccc;
+	border-top-color: #fff;
+}
+.main .leave_hidden .emoji{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background: url(../emoji/emoji.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+.main .leave_hidden .btn{
+	margin-right: 1px;
+	float: right;
+	padding: 5px 20px;
+	border-radius: 0;
+	color: #fff;
+	background: #51D5AD;
+}
+
+.main .faceall{
+	display: none;
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 110px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background-color: #fff;
+
+}
+.main .faceall>img {
+	float: left;
+	margin-left: 1px;
+	margin-top: 1px;
+	position: relative;
+	width: 35px;
+	height: 35px;
+	padding: 4px;
+	cursor: pointer;
+}
+.main .faceall>img:hover {
+	background-color: #efefef;
+}
+.main .faceall>img:active {
+	padding: 4px 3px 2px 3px;
+}
+.main .faceall .ok{
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+	padding: 5px 25px;
+	border-radius: 0;
+	color: #fff;
+	background: #51D5AD;
+	cursor: pointer;
+}
+
+.main .leave_msg{
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	border-bottom: 1px solid #51D5AD;
+	color: #51D5AD;
+}
+.show_comment{
+	margin-bottom: 10px;
+}
+.comments_box{
+	clear: both;
+	height: 90px;
+	border-bottom: 1px solid #ccc;
+}
+.show_comment .left_user{
+	float: left;
+}
+.show_comment .left_user img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: ;
+}
+.show_comment .left_user p{
+	width: 60px;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 0;
+	text-align: center;
+}
+.show_comment .right_user{
+	position: relative;
+	width: 90%;
+	margin-left: 10px;
+	float: left;
+	height: 90px;
+}
+#leave_down{
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	
+}
+#leave_down li{
+	margin-top: 5px;
+	display: none;
+	list-style: none;
+	cursor: pointer;
+}
+#leave_down:hover{
+	color: #51D5AD;
+}
+#leave_down:hover li{
+	display: block;
+}
+#leave_down li:hover{
+	color: #EF045C;
+}
+
+.show_comment .right_user p:nth-child(2){
+	position: absolute;
+	bottom:-4px;
+}
+.show_comment .right_user p:nth-child(2) span{
+	margin-left: 15px;
+	cursor: pointer;
+}
+.show_comment .right_user p:nth-child(2) span:hover{
+	color: #51D5AD;
+}
+@media only screen and (min-width: 460px) and (max-width: 640px) {
+	.show_comment .right_user{
+		width: 80%;
+	}
+}
+@media only screen and (min-width: 460px) and (max-width: 640px) {
+	.show_comment .right_user{
+		width: 75%;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 460px) {
+	.show_comment .right_user{
+		width: 70%;
+	}
+}
+@media only screen and (min-width: 1366px) and (max-width: 1920px) {
+	.main .faceall{
+		height: 75px;
+	}
+}
+@media only screen and (min-width: 966px) and (max-width: 1366px) {
+	.main .faceall{
+		height: 110px;
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 966px) {
+	.main .faceall{
+		height: 130px;
+	}
+	.main .faceall>img {
+		width: 30px;
+		height: 30px;
+		padding: 4px;
+	}
+	.show_comment .right_user{
+		width: 85%;
+	}
+	
+}
+@media only screen and (min-width: 525px) and (max-width: 640px) {
+	.main .faceall{
+		height: 120px;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 640px) {
+	.main .faceall>img {
+		width: 28px;
+		height: 28px;
+		padding: 3px;
+	}
+}
+@media only screen and (min-width: 490px) and (max-width: 605px) {
+	.main .faceall{
+		height: 145px;
+	}
+}
+@media only screen and (min-width: 425px) and (max-width: 490px) {
+	.main .faceall{
+		height: 175px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	.main .faceall{
+		height: 165px;
+	}
+	.main .faceall>img {
+		width: 26px;
+		height: 26px;
+		padding: 1px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 395px) {
+	.main .faceall{
+		height: 190px;
+	}
+}
+
+
+

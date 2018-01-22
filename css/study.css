@@ -1,0 +1,447 @@
+#header{
+	height: 50px;
+}
+#subtop_nav .dropdown{
+	padding-right: 25px;
+}
+#subtop_nav .dropdown .btn{
+	outline: none;
+	box-shadow: none;
+	height: 50px;
+	line-height: 36px;
+	font-size: 20px;
+	color: #fff;
+	padding:6px 5px;
+	background: #51D5AD;
+}
+#subtop_nav .dropdown .btnstyle{
+	width: 115px;
+}
+#subtop_nav .dropdown .moveimg{
+	margin-top: -2px;
+	display: inline-block;
+	width: 16px;
+	height: 10px;
+	line-height: 50px;
+	/*transition: -moz-transform 0.2s ease-out;
+	-webkit-transition: -webkit-transform 0.2s ease-out;*/
+    /*-moz-transition: -moz-transform 0.2s ease-out;
+    -o-transition: -o-transform 0.2s ease-out;
+    -ms-transition: -ms-transform 0.2s ease-out;*/
+}
+#subtop_nav .dropdown ul{
+	border: 1px solid #fff;
+	box-shadow:0 2px 3px 2px rgba(0,0,0,0.07),1px 2px 3px 0 rgba(0,0,0,0.1);
+	background: rgba(81,213,173,0.4);
+}
+#subtop_nav .dropdown ul li{
+	padding-left: 0;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+/*#subtop_nav .dropdown ul li.end_li1{
+	border-bottom: 1px solid #fff;
+}*/
+#subtop_nav .dropdown ul li a{
+	display: inline-block;
+	padding: 3px 0 !important;
+	width: 80%;
+	padding-left: 10%;
+	font-size: 16px;
+	border-bottom: 1px dashed #fff;
+	color: #fff;
+	border-radius: 3px;
+	background: #51D5AD;
+}
+#subtop_nav .dropdown ul li a.end_a2{
+	font-size: 16px;
+	color: #EF045C;
+}
+#subtop_nav .dropdown ul li a.end_a2:hover{
+	color: #fff;
+}
+@media only screen and (min-width: 766px) and (max-width: 990px) {
+	#subtop_nav .dropdown .btn{
+		font-size: 18px;
+	}
+	#subtop_nav .dropdown .moveimg{
+		margin-top: -2px;
+		width: 14px;
+		height: 9px;
+	}
+	#subtop_nav .dropdown ul li a{
+		font-size: 14px;
+	}
+	#subtop_nav .dropdown ul li a.end_a2{
+		font-size: 14px;
+		color: #EF045C;
+	}
+}
+@media only screen and (min-width: 766px) and (max-width: 890px) {
+	#subtop_nav .dropdown{
+		padding:0 12px 8px 12px;
+	}
+	#subtop_nav .dropdown .dropdown-menu{
+		left: 5px;
+		min-width: 130px;
+	}
+	#subtop_nav .dropdown .sub_menu1{
+		left: -5px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.subtop_nav li{
+		border-bottom: 1px solid #fff;
+	}
+	#subtop_nav .dropdown ul li{
+		border-bottom: none;
+	}
+	#subtop_nav .dropdown ul li a{
+		border-bottom: 1px dashed #fff;
+	}
+	#subtop_nav .dropdown{
+		padding-bottom: 8px;
+	}
+}
+
+/*学习推荐-----------------------------------------------------*/
+.header_line{
+	margin: 50px auto;
+	width: 80%;
+	height: 30px;
+	text-align: center;
+	background: url(../img/line.jpg) repeat-x center;
+}
+.header_line .line{
+	margin: 0 auto;
+	display: block;
+	width: 120px;
+	height: 30px;
+	line-height: 26px;
+	font-size: 20px;
+	color: #EF045C;
+	background: #fff;
+}
+
+/*学习推荐的内容-----------------------------------------------------*/
+.container{
+	margin-bottom: 20px;
+}
+.img_box{
+	padding: 5px;
+	border: 5px solid #fff;
+	background: #f6f6f6;
+}
+.img_box .img{
+	width: 100%;
+}
+.img_box .title{
+	padding-left: 5px;
+	font-size: 16px;
+	color: #444;
+}
+.img_box .glyphicon{
+	padding-left: 5px;
+	padding-right: 2px;
+	color: #EF045C;
+}
+.img_box .msg{
+	font-size: 13px;
+}
+.img_box .three{
+	text-align: right;
+	width: 100%;
+	height: 20px;
+}
+.img_box .three .now{
+	display: none;
+	padding-right: 60px;
+}
+.img_box .three a{
+	color: #1652b7;
+	text-decoration: none;
+}
+.img_box .three a:hover{
+	color: #EF045C;
+	text-decoration: underline;
+}
+/*视频-------------------------------*/
+#video_second h4,
+#video_second p{
+	width: 100%;
+	text-align: center;
+}
+#video_second h4{
+	font-size: 16px;
+}
+#video_second p{
+	color: #777;
+}
+#video_second .playbtn{
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	margin:0 auto;
+	width: 30px;
+	height: 30px;
+	font-size: 40px;
+	color: #EF045C;
+	
+	cursor: pointer;
+}
+#video_second .play_active{
+	color: #b7ff0b;
+}
+
+/*没有实现*/
+/*#video_second .mask{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#video_second .img_box .mask_active{
+	display: block;
+	background:rgba(0,0,0,0.2);
+}*/
+
+/*文章推荐------------------------------------------------------------*/
+#art_third .row1{
+	margin-bottom: 2.1%;
+}
+#art_third .img_left{
+	width: 100%;
+}
+#art_third .title_other{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	text-align: center;
+	background: rgba(56,32,123,0.1);
+}
+#art_third .title{
+	font-size: 17px;
+}
+#art_third .title,
+#art_third .start{
+	width: 100%;
+	text-align: center;
+}
+#art_third .start{
+	padding-bottom: 5px;
+}
+@media only screen and (min-width: 990px) and (max-width: 1050px) {
+	#art_third .title_other{
+		bottom: -24px;
+		height: 30px;
+		line-height: 30px;
+	}
+}
+@media only screen and (max-width: 990px) {
+	#art_third .col-md-3{
+		display: none;
+	}
+}
+/*生活看点----------------------------------------------------------------*/
+#life_four{
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+#art_third .box_shadow,
+#life_four .box_shadow{
+	position: relative;
+	z-index: 3;
+	box-shadow: 0 2px 3px #bbb;
+}
+#life_four .title{
+	position: absolute;
+	left: 10%;
+	/*top: -20px;*/
+	top: 5px;
+	display: block;
+	width: 80%;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff;
+	text-decoration: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background: rgba(12,42,123,0.4);
+}
+#life_four .title:hover{
+	color: #EF045C;
+	text-decoration: underline;
+}
+
+/*每日推荐----------------------------------------------------------------*/
+#daily_five{
+	margin-bottom: 70px;
+}
+#daily_five .img_box{
+	overflow: hidden;
+	
+}
+#daily_five .img_box .title{
+	position: absolute;
+	left: -35px;
+	top: 10px;
+	display: block;
+	transform: rotate(-40deg);
+	-webkit-transform: rotate(-40deg);
+	width: 130px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	text-align: center;
+	background: url(../img/tag2.png) no-repeat left top;
+	background-size: 100% 100%;
+	border: 1px solid #fff;
+	color: #fff;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+#daily_five .img_box:hover .title{
+	background: url(img/tag1.png) no-repeat left top;
+	background-size: 100% 100%;
+}
+#daily_five .daily_con{
+	height: 100%;
+	line-height: 24px;
+	font-size: 15px;
+	text-indent: 2em;
+}
+#daily_five .daily_from{
+	text-align: right;
+}
+#daily_five .daily_from a{
+	color: #EF045C;
+	text-decoration: none;
+}
+#daily_five .daily_from a:hover{
+	text-decoration: underline;
+}
+
+/*每日思考----------------------------------------------*/
+#think_five{
+	margin-bottom: 100px;
+}
+#think_five .title{
+	text-align: center;
+}
+#think_five .think_con{
+	padding: 10px;
+	text-indent: 2em;
+	text-align: justify;
+	border: 1px dashed #ccc;
+}
+#think_five .answer{
+	margin-right: 10px;
+	font-size: 16px;
+	text-align: right;
+	cursor: pointer;
+}
+#think_five .answer:hover{
+	color: #EF045C;
+}
+#think_five .think_answer{
+	display: none;
+}
+#think_five .think_answer p{
+	margin-bottom: 0;
+	line-height: 22px;
+	text-indent: 2em;
+	text-align: justify;
+}
+#think_five .think_answer p:nth-child(1){
+	font-size: 15px;
+	line-height: 24px;
+	color: #EF045C;
+}
+#think_five .think_answer .good_share{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 190px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+#think_five .think_answer .good_share .box{
+	float: left;
+	width:70px;
+}
+#think_five .think_answer .good_share .box1{
+	width:50px;
+}
+#think_five .think_answer .good_share .glyphicon{
+	text-align: left;
+	color: #fff;
+}
+#think_five .think_answer .good_share span{
+	display: inline-block;
+	background: #6c0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#think_five .think_answer .good_share span:hover{
+	background: #87e91d;
+}
+#think_five .think_answer .good_share .sides{
+	width:70px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+#think_five .think_answer .good_share span.center{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+}
+#think_five .think_answer .good_share .txt{
+	display: none;
+	text-indent: 0;
+	position: absolute;
+	top: -27px;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: url(../img/good.png) no-repeat center;
+	color: #fff;
+}
+#think_five .think_answer .good_share .txt:hover{
+	color: #EF045C;
+}
+#think_five .think_answer .good_share .txt1{
+	left: -5px;
+}
+#think_five .think_answer .good_share .txt2{
+	right: -5px;
+}
+#think_five .think_answer .good_share .share{
+	display: none;
+	position: absolute;
+	top: -48px;
+	left: -40px;
+	width: 270px;
+	height: 50px;
+	line-height: 42px;
+	background: url(../img/share_box.png) no-repeat center;
+}
+#think_five .think_answer .good_share .share img{
+	margin: 0 5px;
+}

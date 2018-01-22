@@ -1,0 +1,335 @@
+#header{
+	margin-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+}
+#header .logo-msg{
+	padding: 20px;
+	font-size: 28px;
+	color: #ef045c;
+}
+#header .logo-msg .logo{
+	margin-left: 10%;
+	text-align: center;
+	font: 40px "微软雅黑";
+	padding-right: 15px;
+	border-right: 3px solid #ef045c;
+	color: inherit;
+	text-decoration: none;
+}
+#step{
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	margin-bottom: 140px;
+	width: 70%;
+	height: 50px;
+}
+#step .step_line{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	width: 100%;
+	height: 3px;
+	background: #ccc;
+}
+#step .move_line{
+	position: absolute;
+	left: 0;
+	/*left: 25%;*/
+	width: 25%;
+	height: 3px;
+	background: url(../img/forget_line.jpg) no-repeat right center;
+	background-size: 100% 100%;
+}
+#step .step_num{
+	display: flex;	
+	width: 100%;
+}
+#step .step_num li{
+	flex: 1;
+	font-size: 16px;
+	list-style: none;
+}
+#step .step_num li span{
+	position: absolute;
+	top: 5px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 50%;
+	border: 3px solid #bbb;
+	color: #555;
+	background: #fff;
+}
+#step .step_num li .glyphicon{
+	font-size: 20px;
+	color: #777;
+}
+#step .step_num li span.num_active{
+	border: 3px solid #50cd04;
+	color: #50cd04;
+}
+
+#step .step_con{
+	/*position: relative;*/
+	/*top: 40px;*/
+	margin-top: 50px;
+}
+#step .step_con li{
+	position: relative;
+}
+#step .step_con .one{
+	left: -15px;
+}
+#step .step_con .two{
+	left: -7px;
+}
+#step .step_con .three{
+	left: -15px;
+}
+#step .step_con .four{
+	left: 7px;
+}
+
+
+/*填写账户名------------------------------------------------*/
+input,
+input:focus{
+	outline: none;
+	box-shadow: none;
+	border: 1px solid #ccc;
+	appearance: none;
+	-webkit-appearance: none;
+}
+input:focus{
+	border:1px solid #EF045C;
+	
+}
+.main{
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+.main .input_box{
+	margin: 0 auto;
+	width: 360px;
+	margin-bottom: 10px;
+}
+.main input{
+	display: block;
+	width: 100%;
+	height: 40px;
+}
+.main .box_one{
+	position: relative;
+}
+.main .box_one span{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	font-size: 22px;
+	color: #EF045C;
+}
+.main .box_one input{
+	padding-left: 35px;
+}
+.main .box_two input{
+	display: inline-block;
+	padding-left: 10px;
+	width: 40%;
+}
+.main .box_two .code_msg{
+	margin-right: 5px;
+	padding: 9px 20px 10px 20px;
+	border: 1px solid #ccc;
+}
+.main .box_two .refresh{
+	color: #444;
+	text-decoration: none;
+}
+.main .box_two .refresh:hover{
+	color: #EF045C;
+	text-decoration: underline;
+}
+.main .box_three input{
+	margin-top: 50px;
+	background: #EF045C;
+	font-size: 18px;
+	color: #fff;
+	border: 1px solid #EF045C;
+}
+/*第二步------------------------------------*/
+/*.main .box_four .input_group{
+	border-radius: 0;
+}*/
+#input-group{
+	margin-top: 5px;
+	width: 100%;
+}
+#input-group .form-control :focus,
+#input-group .form-control{
+	outline: none;
+	box-shadow: none;
+	border-radius: 0;
+	border: 1px solid #ccc;
+}
+#input-group .input-group-addon{
+	width: 35%;
+	background: none;
+	border-radius: 0;
+}
+/*第四步------------------------------------------*/
+
+.main .go_login{
+	float: left;
+	width: 250px;
+	height: 150px;
+	background: url(../img/success.jpg) no-repeat right center;
+	background-size: 45% 80%;
+}
+
+.main .go_login span{
+	font-size: 20px;
+	color: #57c300;
+}
+.main .go_login a{
+	display: block;
+	color: #888;
+	line-height: 35px;
+	font-size: 16px;
+	text-decoration: underline;
+}
+.main .go_login a:hover{
+	color: #EF045C;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	#header{
+		margin-bottom: 30px;
+	}
+	#header .logo-msg{
+		font-size: 16px;
+	}
+	#header .logo-msg .logo{
+		margin-left: 10%;
+		font: 26px "微软雅黑";
+	}
+	#step{
+		width: 80%;
+		height: 30px;
+		margin-bottom: 80px;
+	}
+	#step .step_num li span{
+		top: 2px;
+		width:25px;
+		height: 25px;
+		font-size: 13px;
+		line-height: 22px;
+		border: 2px solid #bbb;
+	}
+	#step .step_num li .glyphicon{
+		font-size: 13px;
+	}
+	
+	#step .step_num li span.num_active{
+		border: 3px solid #50cd04;
+	}
+	
+	
+	
+	#step .step_con{
+		margin-top: 35px;
+	}
+	#step .step_con li{
+		font-size: 14px;
+	}
+	#step .step_con .one{
+		left: 15px;
+	}
+	#step .step_con .two{
+		left: 25px;
+	}
+	#step .step_con .three{
+		left: 20px;
+	}
+	#step .step_con .four{
+		left: 30px;
+	}
+	
+	.main{
+		width: 80%;
+	}
+	.main img{
+		width: 18%;
+	}
+	.main .go_login{
+		padding:5px 15px;
+	}
+	
+	.main .go_login span{
+		font-size: 16px;
+	}
+	.main .go_login a{
+		line-height: 25px;
+		font-size: 12px;
+	}
+	
+}
+@media only screen and (min-width: 685px) and (max-width: 768px) {
+	.main{
+		width:80%;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 685px) {
+	.main{
+		width:70%;
+	}
+	.main .input_box{
+		width: 100%;
+	}
+	.main .box_two .code_msg{
+		padding: 9px 10px 10px 10px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+	#step{
+		width:90%;
+	}
+	.main{
+		margin: 0 auto;
+		width:90%;
+	}
+	.main input{
+		height: 30px;
+	}
+	.main .box_one .glyphicon{
+		font-size: 16px;
+	}
+	.main .box_two .code_msg{
+		padding: 4px 10px 5px 10px;
+	}
+	.main .box_three input{
+		height: 35px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

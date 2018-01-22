@@ -1,0 +1,158 @@
+.returnBtn{
+
+}
+.returnBtn a{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding:8px 20px;
+	font-size: 16px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #01D5AD;
+}
+.main{
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	width: 80%;
+	border: 1px solid #ccc;
+}
+.main h2{
+	color: #EF045C;
+	margin: 20px auto;
+	text-align: center;
+}
+.main .msg{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.main .hr{
+	margin:  0 auto;
+	margin-bottom: 10px;
+	width: 92%;
+	height: 1px;
+	background: #eee;
+}
+.main .content{
+	margin:  0 auto;
+	width: 92%;
+}
+.main .content img {
+	display: block;
+	margin: 10px auto;
+	width: 50%;
+}
+.main .content p{
+	line-height: 22px;
+	text-indent: 2em;
+	text-align: justify;
+}
+.main .notice{
+	margin: 50px auto;
+	width: 92%;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	background: #f8f8f8;
+}
+.main .notice:hover{
+	color: #fff;
+	background: #51D5AD;
+}
+.main .tage{
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-left: 15px;
+	width: 92%;
+	font-size: 20px;
+	background: url(../img/circle.png) no-repeat left center;
+}
+.main ol{
+	margin: 0 auto;
+	width: 88%;
+}
+.main ol li{
+	list-style: none;
+	padding-left: 15px;
+	height: 30px;
+	line-height: 30px;
+	color: #EF045C;
+	background: url(../img/circlesmall.png) no-repeat left center;
+}
+.main ol li a{
+	font-size: 16px;
+	color: #666;
+}
+.main ol li a:hover{
+	color: #EF045C;
+}
+.main .sharecontent{
+	margin: 0 auto;
+	width: 92%;
+	height: 45px;
+	text-align: center;
+	line-height: 40px;
+	color: #122B40;
+	border: 1px solid #eee;
+}
+
+.sharecontent .sharea{
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.sharecontent .sharea img{
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px rgba(44,44,44,0.6);
+	
+}
+
+.main textarea:focus{
+	outline: none;
+	box-shadow: none;
+}
+.main textarea{
+	margin-top: 20px;
+	margin-left: 4%;
+	padding: 5px;
+	width: 92%;
+	height: 100px;
+	border: 1px solid #eee;
+}
+.main .subtn{
+	position: relative;
+	top: -5px;
+	margin-left: 4%;
+	width: 92%;
+	height: 35px;
+	background: #eee;
+}
+.main .subtn .submit{
+	float: right;
+	width: 80px;
+	height: 35px;
+	color: #fff;
+	border:2px solid #51D5AD;
+	background: #51D5AD;
+}
+	
+
+
+
+@media (max-width: 767px) and (min-width:320px){
+	
+	.main .notice{
+		font-size: 12px;
+	}
+}
+@media (max-width: 768px) and (min-width:320px){
+	.main h2{
+		font-size: 20px;
+	}
+	.main{
+		width: 98%;
+		border: none;
+	}
+}

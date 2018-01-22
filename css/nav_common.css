@@ -1,0 +1,109 @@
+.fixednav{
+	position: fixed;
+	top: 0;
+	/*height: 50px;*/
+	z-index: 10;
+	/*padding-bottom: 10px;*/
+}
+#header .img-responsive{
+	border-bottom: 1px solid #fff;
+	
+}
+/*logo样式*/
+#header .navbar-brand{
+	padding-left: 40px;
+	font-size: 24px;
+	color: #fff;
+}
+#header .navbar-brand:hover{
+	color: #ef045c;
+}
+
+/*导航栏样式*/
+#header .navbar{
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	background: #51d5ad;
+}
+#header .navbar-nav{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-nav li{
+	padding-left: 25px;
+}
+#header .navbar-nav a{
+	font-size: 18px;
+	color: #fff;
+}
+#header .navbar-nav a:hover{
+	color: #ef045c;
+}
+
+#header .navbar-nav a.active{
+	color: #ef045c;
+}
+
+/*nav-downmsg样式*/
+.navbar-nav li .nav-downmsg{
+	display: none;
+	position: absolute;
+	top: 28px;
+	padding-top: 20px;
+	left: 30px;
+	width: 60px;
+	text-align: center;
+	font:bold 14px "微软雅黑";
+	color: #ef045c;
+}
+
+/*导航栏的toggle样式*/
+.navbar-toggle{
+	border: none;
+	background: none !important;
+}
+.navbar-toggle:hover{
+	background: none !important;
+}
+.navbar-collapse{
+	position: relative;
+	z-index: 10;
+	height: 288px;
+	border-color: #fff !important;
+}
+.navbar-collapse-shop{
+	height: 206px;
+	border-color: #fff !important;
+}
+.navbar-right li{
+	padding-left: 25px;
+}
+/*导航栏的右侧样式*/
+.navbar-right{
+	margin-top: -7px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background: #fff;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+	background: #ef045c;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-collapse li{
+		text-align: center;
+		border-bottom: 1px dashed #fff;
+	}
+	#login_reg li.end{
+		border-bottom: 1px solid #51d5ad !important;
+	}
+	#nav-down li .nav-downmsg{
+		display: none !important;
+	}
+	#nav-down li a{
+		font-size: 18px !important;
+	}
+}
+

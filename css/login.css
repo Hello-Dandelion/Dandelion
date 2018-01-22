@@ -1,0 +1,333 @@
+
+#header{
+	margin-bottom: 60px;
+}
+#header .logo-msg{
+	padding: 20px;
+	font-size: 28px;
+	color: #ef045c;
+}
+#header .logo-msg .logo{
+	margin-left: 10%;
+	text-align: center;
+	font: 40px "微软雅黑";
+	padding-right: 15px;
+	border-right: 3px solid #ef045c;
+	color: inherit;
+	text-decoration: none;
+}
+/*登录样式*/
+/*#loginbox,*/
+#registerbox{
+	display: none;
+}
+.container .row .options{
+	position: relative;
+	width: 100%;
+	height: 35px;
+	text-align: center;
+}
+.container .row .options a{
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	text-decoration: none;
+	color: #666;
+}
+.container .row .options .hr{
+	display: block;
+	position: absolute;
+	top: 34px;
+	left: 12.5%; /*left: 62.5%;*/
+	z-index: 3;
+	width: 25%;
+	height: 3px;
+	background: #EF045C;
+}
+#loginbox .box,
+#registerbox .box{
+	position: relative;
+}
+#loginbox .box .error,
+#registerbox .box .error{
+	display: none;
+	position: absolute;
+	top: -15px;
+	z-index: 4;
+	height: 32px;
+	text-align: center;
+	line-height: 24px;
+	color: #EF045C;
+	background: url(img/dialog.png) no-repeat center;
+	background-size: 100% 100%;
+}
+#loginbox .box .error{
+	left: 20%;
+	width: 60%;
+}
+#registerbox .box .error{
+	left: 36%;
+	width: 60%;
+}
+#registerbox .box .error4{
+	left: 4%;
+	width: 60%;
+}
+.refresh{
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	display: inline-block;
+	/*padding-right: 20px;*/
+	width: 30px;
+	height: 30px;
+	background: url(img/refresh.gif) no-repeat right center;
+	background-size: 100% 100%;
+}
+.refresh span{
+	position: absolute;
+	top: -35px;
+	right:-18px;
+	z-index: 3;
+	display: block;
+	width: 60px;
+	height: 34px;
+	line-height: 26px;
+	text-align: center;
+	color: #EF045C;
+	background: url(img/dialog.png) no-repeat right center;
+	background-size: 100% 100%;
+}
+
+.bs-example-form .input-group{
+	margin-bottom: 15px;
+	width: 100%;
+	appearance: none;
+	-webkit-appearance: none;
+}
+.input-group,
+.form-control,
+.input-group-addon{
+	font-size: 16px !important;
+	border-radius: 0 !important;
+}
+.input-group{
+	position: relative;
+}
+.box .input-group .gly{
+	position: absolute;
+	top: -3px;
+	z-index: 4;
+	padding-left: 10px;
+	vertical-align: middle;
+	color: #EF045C;
+}
+.box .setleft{
+	padding-left: 35px !important;
+}
+.box .setcenter{
+	text-align: center;
+}
+.glyphicon{
+	padding: 20px 0;
+}
+@media (max-width: 1366px) and (min-width: 1200px) {
+	.input-group-addon{
+		padding: 0 0 0 10px !important;
+		text-align: left;
+	}
+	.refresh{
+		top: 11px;
+		width: 26px;
+		height: 26px;
+		background: url(img/refresh.gif) no-repeat right center;
+		background-size: 100% 100%;
+	}
+}
+@media (max-width: 1200px) and (min-width: 990px) {
+	.input-group-addon{
+		padding: 0 0 0 5px !important;
+		text-align: left;
+	}
+	.refresh{
+		top: 12px;
+		right: 5px;
+		width: 22px;
+		height: 22px;
+		background: url(img/refresh.gif) no-repeat right center;
+		background-size: 100% 100%;
+	}
+}
+/*@media (max-width: 1920px) and (min-width: 1366px) {
+	.input-group-addon{
+		text-align: center;
+	}
+}*/
+.input-group-addon{
+	margin-top: 0 !important;
+	background: none;
+	color: #EF045C;
+}
+.gly_long{
+	width: 32%;
+}
+.form-control,
+.form-control:focus{
+	outline: none;
+	box-shadow: none;
+	border: 1px solid #ccc;
+}
+.form-control{
+	padding:10px 8px !important;
+	
+}
+.bs-example .checkbox a:nth-child(2){
+	float: right;
+	color: #333;
+	text-decoration: none;
+}
+.bs-example .checkbox a:nth-child(2):hover{
+	color: #EF045C;
+	text-decoration: underline;
+}
+#sub-login,
+#sub-reg{
+	width: 100%;
+	text-align: center;
+	font-size: 20px !important;
+	color: #fff;
+	background: #EF045C;
+	border: 1px solid #EF045C;
+	cursor: pointer;
+}
+.bs-example {
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+	/*background: rgba(0,0,0,0.2);*/
+}
+.bs-example .link-login{
+	margin-top: 30px;
+	padding: 10px 0;
+	width: 100%;
+}
+.bs-example .link-login a{
+	padding-right: 10px;
+	color: #777;
+	text-decoration: none;
+	border-right: 1px solid #ccc;
+}
+.bs-example .link-login a.end{
+	float: right;
+	padding-right: 0;
+	border-right: none;
+}
+.bs-example .link-login a:hover{
+	color: #EF045C;
+	text-decoration: underline;
+}
+.bs-example .link-login img{
+	margin-left: 10px;
+	margin-right: 2px;
+	width: 22px;
+	height: 22px;
+}
+.bs-example .link-login img.first{
+	margin-left: 0;
+}
+
+/*banner*/
+#banner{
+	position: relative;
+	top: 0;
+	margin: 40px 0;
+	width: 100%;
+	height: 300px;
+	/*overflow: hidden;*/
+}
+/*#banner ul{
+	position: relative;
+	transition: left 1s;
+	-webkit-transition: left 1s;
+}*/
+#banner ul li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	list-style: none;
+	width: 100%;
+	cursor: pointer;
+	opacity: 0;
+	/*overflow: hidden;*/
+}
+#banner ul img{
+	width: 100%;
+}
+/*#banner ul .img1{
+	left: 0;
+}
+#banner ul .img2{
+	left: 100%;
+}
+#banner ul .img3{
+	left: 200%;
+}
+#banner ul .img4{
+	left: 300%;
+}*/
+#banner ol{
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+	width: 116px;
+}
+#banner ol li{
+	float: left;
+	margin: 0 5px;
+	list-style: none;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #EF045C;
+}
+#banner ol li.active{
+	border: 3px solid #EF045C;
+	background: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	#banner{
+		display: none;
+	}
+	#header .logo-msg{
+		font-size: 16px;
+	}
+	#header .logo-msg .logo{
+		margin-left: 10%;
+		font: 26px "微软雅黑";
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+	.input-group-addon{
+		padding: 0 0 0 5px !important;
+		text-align: left;
+	}
+	.refresh{
+		top: 12px;
+		right: 5px;
+		width: 22px;
+		height: 22px;
+		background: url(img/refresh.gif) no-repeat right center;
+		background-size: 100% 100%;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+	.link-login .end{
+		display: none;
+	}
+}
